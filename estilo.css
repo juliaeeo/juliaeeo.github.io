@@ -6,6 +6,7 @@ body{
 #principal{
 
         width: 730px;
+        margin-left: 100px;
     
 }
 
@@ -20,15 +21,23 @@ body{
     padding: 10px;
 }
 
+#rodape{
+    text-align: center;
+}
+
+
 a{
-    color: #4b566a;
+    color: #1c082e;
     text-decoration: none;
     font-weight: bold;
     padding: 5px;
 
 }
 
-.centralizar{
-    text-align: center;
+
+
+h1{
+    color: #324885;
+    
 }
 
