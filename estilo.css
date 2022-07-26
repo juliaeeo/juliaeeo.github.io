@@ -27,6 +27,11 @@ a {
     text-decoration: none;
     font-weight: bold;
     padding: 5px;
+    
+}
+
+a:hover{
+    color: #a54208
 }
 
 h1 {
