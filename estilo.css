@@ -1,61 +1,71 @@
-/*Limpar formatações padrão*/
-
-
-#body{
-    
-    font-family: Helvetica, Arial, sans-serif;
-    background: #f0cbcb;
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #f8f8f1;
 }
 
 
 /*Inicio formatação do cabeçalho*/
 
-
-
-#cabecalho{
-    background-color: #8b68059c;
-    padding: 15px;
-    text-align: center;
-    border: 1px solid black;
-
-    }
-
-
-
-a{
-    color: #490419;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 8px 12px;
+header>nav,
+#cabecalho {
+  background-color: #8b68059c;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid black;
 }
 
-a:hover{
-    color: #9e113e;
+a {
+  color: #490419;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
 }
 
-
+a:hover {
+  color: #9e113e;
+}
 
 /*Formatações gerais*/
 
-h1{
-    color: #490419;
-    font-size: 5em;
-    text-align: center;
+h1 {
+  color: #490419;
+  font-size: 5em;
+  text-align: center;
 }
 
-h2{
-    color: #9e113e;
-    font-size: 2em;
+h2 {
+  color: #9e113e;
+  font-size: 2em;
 }
-
 
 #conteudo {
-      margin-left: 100px;
-      padding: 18px;
+  margin-left: 100px;
+  padding: 18px;
 }
 
 #rodape {
-    clear:both;
-    text-align:center;
+  clear: both;
+  text-align: center;
 }
 
+.tabela-estilizada {
+  border-collapse: separate;
+  width: 100%;
+}
+
+.tabela-estilizada th,
+td {
+  padding: 5px;
+  border: 1px solid #9e113e;
+}
+
+.tabela-estilizada th {
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 0.1em;
+  background-color: rgb(234, 235, 230);
+}
+
+tr:hover {
+  background-color: #e9d0e3;
+}
