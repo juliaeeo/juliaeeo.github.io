@@ -6,8 +6,7 @@ body {
 
 /*Inicio formatação do cabeçalho*/
 
-header>nav,
-#cabecalho {
+header>nav {
   background-color: #8b68059c;
   padding: 15px;
   text-align: center;
@@ -38,14 +37,15 @@ h2 {
   font-size: 2em;
 }
 
-#conteudo {
+main.home {
   margin-left: 100px;
   padding: 18px;
 }
 
-#rodape {
+footer {
   clear: both;
   text-align: center;
+  font-size: 0.8em;
 }
 
 .tabela-estilizada {
