@@ -1,8 +1,40 @@
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  background: #f8f8f1;
+h1 {
+  color: #0a6b4e;
+  text-align: center;
 }
 
+h2 {
+  color: #279182;
+  font-size: 2em;
+}
+
+main.home {
+  margin-left: 100px;
+  padding: 18px;
+}
+
+main.tabela-custom {
+  margin: auto 30px 30px 30px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/*customizando o bootstrap*/
+
+.container-bg {
+  background-color: rgba(111, 138, 118, 0.486);
+  width: auto;
+}
+
+.container-titulo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
 
 /*Inicio formatação do cabeçalho*/
 
@@ -14,6 +46,7 @@ header>nav {
   border: 1px solid black;
 } */
 
+/* 
 
 a {
   color: #490419;
@@ -24,33 +57,13 @@ a {
 
 a:hover {
   color: #9e113e;
-}
+} */
 
 /*Formatações gerais*/
 
-h1 {
-  color: #490419;
-  font-size: 5em;
-  text-align: center;
-}
 
-h2 {
-  color: #9e113e;
-  font-size: 2em;
-}
 
-main.home {
-  margin-left: 100px;
-  padding: 18px;
-}
-
-footer {
-  clear: both;
-  text-align: center;
-  font-size: 0.8em;
-}
-
-.tabela-estilizada {
+/* .tabela-estilizada {
   border-collapse: separate;
   width: 100%;
 }
@@ -66,8 +79,13 @@ td {
   text-align: left;
   letter-spacing: 0.1em;
   background-color: rgb(234, 235, 230);
-}
+} */
 
-tr:hover {
+/* tr:hover {
   background-color: #e9d0e3;
-}
+} */
+
+/* body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #f8f8f1;
+} */
