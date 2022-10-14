@@ -9,8 +9,9 @@ h2 {
 }
 
 main.home {
-  margin-left: 100px;
+  margin-left: 450px;
   padding: 18px;
+
 }
 
 main.tabela-custom {
@@ -21,13 +22,13 @@ footer {
   clear: both;
   text-align: center;
   font-size: 0.8em;
+  padding-top: 50px;
 }
 
 /*customizando o bootstrap*/
 
 .container-bg {
   background-color: rgba(111, 138, 118, 0.486);
-  width: auto;
 }
 
 .container-titulo {
@@ -35,6 +36,13 @@ footer {
   padding-bottom: 20px;
   text-align: center;
 }
+
+.container-home {
+  text-align: center;
+  /*background-color: blanchedalmond;*/
+}
+
+
 
 /*Inicio formatação do cabeçalho*/
 
